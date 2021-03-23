@@ -4,9 +4,9 @@ function calculateTip()
 const numOfPeople = document.getElementById("people").value;
 const service = document.getElementById("service").value;
 
-const tenPercentofBill = (billAmount * 0.1);
+// const tenPercentofBill = (billAmount * 0.1);
 
-const tipTotal = (tenPercentofBill / 2) + tenPercentofBill;
+const tipTotal = (billAmount);
 
 const perPerson = (tipTotal / numOfPeople);
 
